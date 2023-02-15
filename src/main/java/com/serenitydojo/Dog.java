@@ -1,22 +1,22 @@
 package com.serenitydojo;
 
 public class Dog extends Pet {
-    private String favoriteToy;
+    private String favoriteGame;
     private boolean isFed = false;
 
     public static final String DOG_NOISE = "Woof";
 
-    public Dog(String name, String favoriteToy, int age) {
+    public Dog(String name, String favoriteGame, int age) {
         super(name, age);
-        this.favoriteToy = favoriteToy;
+        this.favoriteGame = favoriteGame;
     }
 
-    public String getFavoriteToy() {
-        return favoriteToy;
+    public String getFavoriteGame() {
+        return favoriteGame;
     }
 
-    public void setFavoriteToy(String favoriteToy) {
-        this.favoriteToy = favoriteToy;
+    public void setFavoriteGame(String favoriteGame) {
+        this.favoriteGame = favoriteGame;
     }
 
     public boolean isFed() {
