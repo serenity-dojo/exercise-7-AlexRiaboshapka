@@ -1,11 +1,11 @@
 package com.serenitydojo;
 
 public class Hamster extends Pet {
-    private final String favoriteToy;
+    private final String favoriteGame;
 
-    public Hamster(String name, int age, String favoriteToy) {
+    public Hamster(String name, int age, String favoriteGame) {
         super(name,age);
-        this.favoriteToy = favoriteToy;
+        this.favoriteGame = favoriteGame;
     }
 
     @Override
